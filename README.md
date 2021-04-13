@@ -6,7 +6,7 @@
 
 `SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto envolve a criação de alguma plataforma/aplicativo para possibilitar uma interação dinâmica entre o cliente e os proprietários de supermercados, em que os compradores terão acesso aos produtos oferecidos pelo supermercado, e assim, faça a sua lista de compras e receba por delivery, em sua própria casa. Nos tempos em que estamos vivendo, o trabalho ganha grande importância, pois as pessoas podem receber os produtos essenciais de forma segura, não precisando sair de suas residências.
 
 ## Integrantes: Clara Sendin, Larissa Mendes, Samuel Gonzaga, Sthephanie Ingrid
 
