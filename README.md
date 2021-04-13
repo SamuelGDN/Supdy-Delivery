@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# Delivery de Supermercado
 
 `CURSO`
 
@@ -8,7 +8,7 @@
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
-## Integrantes
+## Integrantes: Clara Sendin, Larissa Mendes, Samuel Gonzaga, Sthephanie Ingrid
 
 - Obi-Wan Kenobi 
 - Anakin Skywalker
