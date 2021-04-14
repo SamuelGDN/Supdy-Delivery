@@ -56,8 +56,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Cadastramento do usuário (dados pessoais)| ALTA | 
+|RF-002| Localização do usuário                  | ALTA |
+|RF-003| Atendimento ao cliente online           | MÉDIA |
+|RF-004| Listamento e descrição dos produtos das prateleiras do supermercado  | ALTA |
+|RF-005| Recursos de pagamento online            | MÉDIA |
+|RF-006| Recursos de interação com o público (sugestões ou reclamações)   | BAIXA |
+|RF-007| Recursos de rastreamento do motoboy     | BAIXA |
+|RF-008| Possibilitar formas do cliente avaliar a plataforma   | BAIXA |
+|RF-009| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-010| Emitir um relatório de tarefas no mês   | MÉDIA |
 
 
 ### Requisitos não Funcionais
@@ -88,7 +96,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
+|01| Área de abrangência do atendimento delivery           |
 |02| Não pode ser desenvolvido um módulo de backend        |
 
 
