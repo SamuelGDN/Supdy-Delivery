@@ -11,6 +11,9 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 PERSONA 1: Maria tem 21 anos, é uma estudante universitária e ajuda os seus pais nas tarefas do dia a dia. Ir ao supermercado fazer compras não é uma tarefa que ela gosta, acha que gasta muito tempo escolhendo os produtos presentes no mercado e esperando nas filas para passar as mercadorias. Por isso, está a procura de alguma plataforma tecnológica que otimize o seu tempo neste tipo de tarefa, de modo que consiga escolher os produtos que queira comprar, pagar de forma online e pedir a sua entrega em casa.
 
 
+PERSONA 2: Gisele tem 47 anos, trabalha como administradora do seu próprio negócio e é muito atarefada. Fazer as compras no mercado para a sua residência é uma atividade que fica em segundo plano na maioria das vezes e na maioria das vezes acaba deixando algum produto para trás, pois passa de forma rápida no supermercado. Um projeto que disponibilize a lista dos produtos oferecidos em um determinado mercado e entregue em suas mãos de forma cômoda, seria a sua solução.
+
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
@@ -29,7 +32,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|1- Estudante universitária  | 1-Facilitar as minhas compras cotidianas no supermercado
+           | 1- Otimizar o tempo nos mercados               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
