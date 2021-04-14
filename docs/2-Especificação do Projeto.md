@@ -14,6 +14,9 @@ PERSONA 1: Maria tem 21 anos, é uma estudante universitária e ajuda os seus pa
 PERSONA 2: Gisele tem 47 anos, trabalha como administradora do seu próprio negócio e é muito atarefada. Fazer as compras no mercado para a sua residência é uma atividade que fica em segundo plano na maioria das vezes e na maioria das vezes acaba deixando algum produto para trás, pois passa de forma rápida no supermercado. Um projeto que disponibilize a lista dos produtos oferecidos em um determinado mercado e entregue em suas mãos de forma cômoda, seria a sua solução.
 
 
+PERSONA 3: Izabela tem 20 anos, cuida/mora somente com sua avó, ajuda nas tarefas de casa e faz faculdade de Medicina Veterinária. Como o seu tempo é corrido, fica dificil ir ao supermercadoazer suas compras e de sua avó, porém quando ela vai gasta muito tempo, já que o estabelecimento é um pouco longe de sua casa, sempre gasta dinheiro com aplicativo de carro e passa bastante tempo nas filas. Com isso, Izabela está a procura de um aplicativo que disponibilize a compra de seus produtos de forma prática e rápida, sem tirar o conforto de estar em casa e ter que sair para fazer compras. Desse modo, seu tempo será otimizado e ela consiguirá estudar, cuidas de sua avó e dos serviços de casa de uma forma mais tranquila.
+
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
@@ -34,7 +37,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|  ----------------------------------------|
 |1- Estudante universitária  | 1-Facilitar as minhas compras cotidianas no supermercado |1- Otimizar o tempo nos mercados|
 |2- Empresária | 2- Facilitar a maneira de realizar as compras de supermercado | 2- Organizar com mais tempo a lista de compras e ganhar mais tempo para as atividades do trabalho|
-|3-                          | 3-                                                       |3-                              |
+|3- Estudante de Medicina Veterinária  | 3-Disponibilidade de um aplicativo para fazer as compras essenciais  |3- Otimizar o tempo e conseguir estudar, cuidar de sua avó e dos serviços de casa de uma forma mais tranquila|
 |4-                          | 4-                                                       |4-                              |
 |5-                          | 5-                                                       |5-                              |
 |6-                          | 6-                                                       |6-                              |
