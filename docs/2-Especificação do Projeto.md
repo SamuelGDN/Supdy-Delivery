@@ -34,6 +34,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|  ----------------------------------------|
 |1- Estudante universitária  | 1-Facilitar as minhas compras cotidianas no supermercado |1- Otimizar o tempo nos mercados|
 |2- Empresária | 2- Facilitar a maneira de realizar as compras de supermercado | 2- Organizar com mais tempo a lista de compras e ganhar mais tempo para as atividades do trabalho|
+|3-                          | 3-                                                       |3-                              |
+|4-                          | 4-                                                       |4-                              |
+|5-                          | 5-                                                       |5-                              |
+|6-                          | 6-                                                       |6-                              |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
