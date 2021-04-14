@@ -8,7 +8,8 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+PERSONA 1: Maria tem 21 anos, é uma estudante universitária e ajuda os seus pais nas tarefas do dia a dia. Ir ao supermercado fazer compras não é uma tarefa que ela gosta, acha que gasta muito tempo escolhendo os produtos presentes no mercado e esperando nas filas para passar as mercadorias. Por isso, está a procura de alguma plataforma tecnológica que otimize o seu tempo neste tipo de tarefa, de modo que consiga escolher os produtos que queira comprar, pagar de forma online e pedir a sua entrega em casa.
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
