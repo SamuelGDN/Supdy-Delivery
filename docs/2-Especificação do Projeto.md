@@ -64,8 +64,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| Recursos de interação com o público (sugestões ou reclamações)   | BAIXA |
 |RF-007| Recursos de rastreamento do motoboy     | BAIXA |
 |RF-008| Possibilitar formas do cliente avaliar a plataforma   | BAIXA |
-|RF-009| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-010| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-009|                                                       | MÉDIA |
+|RF-010|                                                       | MÉDIA |
 
 
 ### Requisitos não Funcionais
@@ -97,7 +97,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| Área de abrangência do atendimento delivery           |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02|                                                       |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
