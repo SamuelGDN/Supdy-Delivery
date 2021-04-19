@@ -19,6 +19,10 @@ PERSONA 3: Izabela tem 20 anos, cuida/mora somente com sua avó, ajuda nas taref
 
 PERSONA 4: Roberto tem 28 anos, é empresário e mora com seus pais. Nesse período da pandemia, ele está trabalhando somente online, uma vez que seus pais fazem parte do grupo de risco, não podem sair e ter contato com muitas pessoas. Dessa forma, para sua familia não passar por isso e não ter o risco de pegar Covid, eles desejam um aplicatico de compras essenciais que entrega os  produtos em casa.
 
+PERSONA 5:
+
+PERSONA 6: Leandro, de 32 anos, é um arquiteto que desempenha suas atividades por consultorias online. Ele mora sozinho e é um cadeirante devido a sua deficiência nas pernas e devido a isso possui dificuldades pra transitar de carro até o supermercado e se locomover dentro do estabelecimento. Ele busca alternativas para que possa fazer suas compras sem sair de casa e assim ter mais tempo pra desempenhar suas funções de trabalho.
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
