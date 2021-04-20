@@ -47,7 +47,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |3- Estudante de Medicina Veterinária  | 3-Disponibilidade de um aplicativo para fazer as compras essenciais  |3- Otimizar o tempo e conseguir estudar, cuidar de sua avó e dos serviços de casa de uma forma mais tranquila|
 |4- Empresário    | 4- Um aplicatio de compras essenciais que entrega os produtos em casa                                                    |4- Não sair de casa e evitar o contato com muitas pessoas, já que os meus pais são grupo de risco|
 |5-                          | 5-                                                       |5-                              |
-|6- Arquiteto e portador de deficiência  | 6- Um aplicativo onde possa fazer compras sem sair de casa. |6- Evitar o extresse da locomoção ao supermercado e ganhar tempo para fazer suas consultorias online. |
+|6- Arquiteto e portador de deficiência  | 6- Um aplicativo onde possa fazer compras sem sair de casa. |6- Evitar o estresse da locomoção ao supermercado e ganhar tempo para fazer suas consultorias online. |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
