@@ -74,8 +74,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| Recursos de interação com o público (sugestões ou reclamações)   | BAIXA |
 |RF-007| Recursos de rastreamento do motoboy     | BAIXA |
 |RF-008| Possibilitar formas do cliente avaliar a plataforma   | BAIXA |
-|RF-009|                                                       | MÉDIA |
-|RF-010|                                                       | MÉDIA |
+|RF-009| Elaborar relatório de produtos vendidos  | MÉDIA |
+|RF-010| Realizar o calculo no caso de taxas extras de entrega | ALTA |
 
 
 ### Requisitos não Funcionais
