@@ -19,7 +19,7 @@ PERSONA 3: Izabela tem 20 anos, cuida/mora somente com sua avó, ajuda nas taref
 
 PERSONA 4: Roberto tem 28 anos, é empresário e mora com seus pais. Nesse período da pandemia, ele está trabalhando somente online, uma vez que seus pais fazem parte do grupo de risco, não podem sair e ter contato com muitas pessoas. Dessa forma, para sua familia não passar por isso e não ter o risco de pegar Covid, eles desejam um aplicatico de compras essenciais que entrega os  produtos em casa.
 
-PERSONA 5:
+PERSONA 5: Sara, tem 35 anos é professora e dona de casa, está sempre correndo entre dar aulas online e fazer as tarefas do dia a dia, ela tem 2 filhos de 2 e 4 anos, é solteira, com a pandemia seus filhos não vão para a escola fazendo a sua semana ainda mais corrida, ela sempre teve dificuldade para ir ao mercado fazer suas compras com 2 crianças pequenas, e com o risco de contaminação no momento tudo tem ficado mais difícil, já que Leandra é hipertensa sendo considerada grupo de risco da covid 19.
 
 PERSONA 6: Leandro, de 32 anos, é um arquiteto que desempenha suas atividades por consultorias online. Ele mora sozinho e é um cadeirante devido a sua deficiência nas pernas e devido a isso possui dificuldades pra transitar de carro até o supermercado e se locomover dentro do estabelecimento. Ele busca alternativas para que possa fazer suas compras sem sair de casa e assim ter mais tempo pra desempenhar suas funções de trabalho.
 
@@ -46,7 +46,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |2- Empresária | 2- Facilitar a maneira de realizar as compras de supermercado | 2- Organizar com mais tempo a lista de compras e ganhar mais tempo para as atividades do trabalho|
 |3- Estudante de Medicina Veterinária  | 3-Disponibilidade de um aplicativo para fazer as compras essenciais  |3- Otimizar o tempo e conseguir estudar, cuidar de sua avó e dos serviços de casa de uma forma mais tranquila|
 |4- Empresário    | 4- Um aplicatio de compras essenciais que entrega os produtos em casa                                                    |4- Não sair de casa e evitar o contato com muitas pessoas, já que os meus pais são grupo de risco|
-|5-                          | 5-                                                       |5-                              |
+|5- Professora e Dona de casa | 5- Um aplicativo para fazer as compras do mês |5-  Facilitar as compras, otimizar o tempo, e evitar aglomerações, pelo fato de ser hipertensa e do grupo de risco  |
 |6- Arquiteto e portador de deficiência  | 6- Um aplicativo onde possa fazer compras sem sair de casa. |6- Evitar o estresse da locomoção ao supermercado e ganhar tempo para fazer suas consultorias online. |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
