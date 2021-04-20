@@ -107,7 +107,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| Área de abrangência do atendimento delivery           |
-|02|                                                       |
+|02| Necessidade de controle dos dados dos usuários e sobre os produtos no programa.  |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
