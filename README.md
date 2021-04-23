@@ -6,18 +6,20 @@
 
 `SEMESTRE`
 
-O projeto envolve a criação de alguma plataforma/aplicativo para possibilitar uma interação dinâmica entre o cliente e os proprietários de supermercados, em que os compradores terão acesso aos produtos oferecidos pelo supermercado, e assim, faça a sua lista de compras e receba por delivery, em sua própria casa. Nos tempos em que estamos vivendo, o trabalho ganha grande importância, pois as pessoas podem receber os produtos essenciais de forma segura, não precisando sair de suas residências.
+O projeto envolve a criação de uma aplicação web para possibilitar uma interação dinâmica entre o cliente e os proprietários de supermercados, em que os compradores terão acesso aos produtos oferecidos pelo supermercado, e assim, faça a sua lista de compras e receba por delivery, em sua própria casa. Nos tempos em que estamos vivendo, o trabalho ganha grande importância, pois as pessoas podem receber os produtos essenciais de forma segura, não precisando sair de suas residências.
 
 ## Integrantes: 
 
-- Clara Sendin; 
-- Larissa Mendes;
-- Samuel Gonzaga;
-- Sthephanie Ingrid.
+- Clara Rezende Barreto Sendin;
+- Gabriel Hirano Gomes;
+- Gustavo Augusto Caldeira Dos Santos
+- Samuel Gonzaga das Neves;
+- Sthephanie Ingrid da Silva;
 
 ## Professor
 
-- Mestre Yoda
+- Fábio Martins De Oliveira
+- Kleber Jacques Ferreira De Souza
 
 # Documentação
 
