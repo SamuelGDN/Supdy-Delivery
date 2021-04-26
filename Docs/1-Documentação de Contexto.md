@@ -27,6 +27,6 @@ O projeto é relevante, uma vez que oferece comodidade e facilidade aos clientes
 
 ## Público-Alvo
 
- O público alvo do projeto é tanto os donos de supermecados que buscam se inserir no mercado via delivery quanto a população que se habita ao redor dos bairros em que o supermercado estará presente, destacando-se idosos, indivíduos do grupo de risco, deficientes físicos ou pessoas que buscam opções para fazer compras sem sair de suas residências.
+ O público alvo do projeto é tanto os donos de supermecados que buscam se inserir no mercado via delivery quanto a população que habita ao redor dos bairros em que o supermercado estará presente, destacando-se idosos, indivíduos do grupo de risco, deficientes físicos ou pessoas que buscam opções para fazer compras sem sair de suas residências.
 
 
