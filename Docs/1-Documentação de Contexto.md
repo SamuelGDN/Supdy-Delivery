@@ -3,7 +3,7 @@
  Hoje em dia, vê-se a necessidade de integrar a rede de supermercados nos serviços online, de forma que tenha uma interação dinâmica com o comprador e proprietários de supermercados. A ideia do projeto é a criação de uma plataforma/aplicativo que disponibilize a lista de compras de certo mercado e ofereça a opção de delivery, para que o cliente receba seus produtos em casa. Em tempos pandêmicos, o projeto ganha certa importância, visto que as pessoas podem comprar e receber produtos essenciais de forma segura, dentro da própria casa.
 
 ## Problema
-No cenário atual da pandemia e em nosso cotidiano, a escassez de servidos de compras e entregas de supermercados possui algumas problemáticas, tais como: as aglomerações geradas no mercado, a falta de comodidade em realizar compras de forma mais rápida, grandes filas nos estabelecimentos, desorganização nas prateleiras e a necessidade de locomoção. 
+No cenário atual da pandemia e em nosso cotidiano, a escassez de servidos de compras e entregas de supermercados possui algumas problemáticas, tais como: as aglomerações geradas no mercado, a falta de comodidade em realizar compras de forma mais rápida, grandes filas nos estabelecimentos, desorganização nas prateleiras e a necessidade de sair de casa para se fazer as compras, o que aumenta as chances do contágio com vírus e outras doenças.  
 
 
 
