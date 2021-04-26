@@ -24,8 +24,8 @@ O projeto envolve a criação de uma aplicação web para possibilitar uma inter
 # Documentação
 
 <ol>
-<li><a href="docs/1-Documentação de Contexto.md"> Documentação de Contexto</a></li>
-<li><a href="docs/2-Especificação do Projeto.md"> Especificação do Projeto</a></li>
+<li><a href="Docs/1-Documentação de Contexto.md"> Documentação de Contexto</a></li>
+<li><a href="Docs/2-Especificação do Projeto.md"> Especificação do Projeto</a></li>
 <li><a href="docs/3-Metodologia.md"> Metodologia</a></li>
 <li><a href="docs/4-Projeto de Interface.md"> Projeto de Interface</a></li>
 <li><a href="docs/5-Arquitetura da Solução.md"> Arquitetura da Solução</a></li>
