@@ -19,7 +19,7 @@ O Objetivo dessa aplicação web, é criar um sistema onde o supermercado cadast
 
 ## Justificativa
 
-O projeto é relevante, uma vez que oferece comodidade e facilidade aos clientes e proprietários do ramo de mercados. Paralelo a isso, diante do contexto pandêmico, o projeto visa o bem estar da população, já que as pessoas podem fazer as compras essenciais de forma online e segura. Diante do cenário, surgiu a motivação de elaborar tal projeto, pois mesmo após a pandemia, será utilizado de bom aproveito.
+O projeto é relevante, uma vez que oferece comodidade e facilidade aos clientes e proprietários do ramo de mercados. Paralelo a isso, diante do contexto pandêmico, o projeto visa o bem estar da população, já que as pessoas podem fazer as compras essenciais de forma online e segura. Diante do cenário, surgiu a motivação de elaborar tal projeto, pois mesmo após a pandemia, será utilizado de bom proveito, devido a praticidade do sistema.
 
 
 
