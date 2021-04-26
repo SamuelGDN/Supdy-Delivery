@@ -12,7 +12,7 @@ No cenário atual da pandemia e em nosso cotidiano, a escassez de servidos de co
 
 ## Objetivos
 
-O trabalho tem como objetivo criar uma aplicação web para facilitar as compras de produtos essenciais. Dessa forma, durante este período pandêmico, espera-se que evite as aglomerações nos supermercados, possibilite acessibilidade a pessoas deficientes e encurte de maneira cômoda a relação entre o comprador e o estabelecimento (supermercado). 
+O Objetivo dessa aplicação web, é criar um sistema onde o supermercado cadastra os produtos aptos para serem entregues via delivery. Esse sistema é organizado por categorias dos produtos. Além disso será desnvolvido a aplicação pensada no cliente, onde ele poderá visualisar escolher os produtos a serem entregues em sua residência.
 
  
 
