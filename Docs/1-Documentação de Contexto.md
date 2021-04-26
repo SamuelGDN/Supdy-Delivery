@@ -12,7 +12,7 @@ No cenário atual da pandemia e em nosso cotidiano, a escassez de servidos de co
 
 ## Objetivos
 
-O Objetivo dessa aplicação web, é criar um sistema onde o supermercado cadastra os produtos aptos para serem entregues via delivery. Esse sistema é organizado por categorias dos produtos. Além disso será desnvolvido a aplicação pensada no cliente, onde ele poderá visualisar escolher os produtos a serem entregues em sua residência.
+O Objetivo dessa aplicação web, é criar um sistema onde o supermercado cadastra os produtos aptos para serem entregues via delivery. Esse sistema é organizado por categorias dos produtos. Além disso será desenvolvido a aplicação pensada no cliente, onde ele poderá visualisar escolher os produtos a serem entregues em sua residência.
 
  
 
