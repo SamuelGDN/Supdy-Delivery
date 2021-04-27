@@ -28,7 +28,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |3- Estudante de Medicina Veterinária  | 3- Quer não gastar tempo de locomoção até o supermercado mais próximo.  |3- Otimizar o tempo e conseguir estudar, cuidar de sua avó e dos serviços de casa de uma forma mais tranquila|
 |4- Empresário    | 4- Agendar a entrega de produtos em sua casa para evitar o risco de contaminação.   |4- Não sair de casa e evitar o contato com muitas pessoas, já que os meus pais são grupo de risco|
 |5- Professora e Dona de casa | 5- Ter uma alternativa pra fazer compras, além das formas tradicionais. |5-  Facilitar as compras, otimizar o tempo, e evitar aglomerações, pelo fato de ser hipertensa e do grupo de risco  |
-|6- Arquiteto e portador de deficiência  | 6- Uma aplicação que entregue suas compras em casa, para evitar os desafios que ele, como cadeirante, tem ao fazer compras presenciais.  |6- Evitar o estresse da locomoção ao supermercado e ganhar tempo para fazer suas consultorias online. |
+|6- Arquiteto e portador de deficiência  | 6- Uma aplicação que entregue minhas compras em casa, para evitar os desafios que eu, como cadeirante, tenho ao fazer compras presenciais.  |6- Evitar o estresse da locomoção ao supermercado e ganhar tempo para fazer suas consultorias online. |
 
 
 ## Requisitos
