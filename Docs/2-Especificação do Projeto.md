@@ -1,10 +1,5 @@
 # Especificações do Projeto
 
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
 
 PERSONA 1: Maria tem 34 anos, é uma dona de supermercado e está querendo adaptar um novo modelo de negócio. Ela observa que muitos clientes tem tido a necessecidade de receber suas compras em casa. Ela até começa a fazer vendas via whatsapp, só que logo ela vê que esse método não é muito organizado, além de varias limitações para apresentar os produtos disponíveis ao cliente. Ela busca por uma aplicação onde ela possa de maneira, organizada e sistematizada, possa vender os seus produtos de forma online, e entrar de vez nessa tedência de mercado.
@@ -22,12 +17,6 @@ PERSONA 5: Sara, tem 35 anos é professora e dona de casa, está sempre correndo
 PERSONA 6: Leandro, de 32 anos, é um arquiteto que desempenha suas atividades por consultorias online. Ele mora sozinho e é um cadeirante devido a sua deficiência nas pernas e devido a isso possui dificuldades pra transitar de carro até o supermercado e se locomover dentro do estabelecimento. Ele busca alternativas para que possa fazer suas compras sem sair de casa e assim ter mais tempo pra desempenhar suas funções de trabalho.
 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -40,9 +29,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |4- Empresário    | 4- Agendar a entrega de produtos em sua casa para evitar o risco de contaminação.   |4- Não sair de casa e evitar o contato com muitas pessoas, já que os meus pais são grupo de risco|
 |5- Professora e Dona de casa | 5- Ter uma alternativa pra fazer compras, além das formas tradicionais. |5-  Facilitar as compras, otimizar o tempo, e evitar aglomerações, pelo fato de ser hipertensa e do grupo de risco  |
 |6- Arquiteto e portador de deficiência  | 6- Uma aplicação que entregue suas compras em casa, para evitar os desafios que ele, como cadeirante, tem ao fazer compras presenciais.  |6- Evitar o estresse da locomoção ao supermercado e ganhar tempo para fazer suas consultorias online. |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
 
 
 ## Requisitos
@@ -74,18 +60,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- :
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  :
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -95,8 +69,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| Área de abrangência do atendimento delivery.          |
 |02| Necessidade de controle dos dados dos usuários.       |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
 
