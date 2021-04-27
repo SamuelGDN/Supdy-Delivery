@@ -24,7 +24,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |  PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|  ----------------------------------------|
 |1- Dona de Supermercado  | 1- Gostaria de ter uma plataforma onde possa por à mostra os seus produtos, para serem pedidos de forma online. |1- Entrar na tendência digital de mercado e ter opção de venda em tempos de crise.|
-|2- Empresária | 2- Criar a sua lista de produtos do supermercado sem ir ao estabelecimento | 2- Organizar com mais tempo a lista de compras e ganhar mais tempo para as atividades do trabalho|
+|2- Empresária | 2- Criar a sua lista de produtos do supermercado sem ir ao estabelecimento | 2- Organizar com menos tempo a lista de compras e ganhar mais tempo para as atividades do trabalho|
 |3- Estudante de Medicina Veterinária  | 3- Quer não gastar tempo de locomoção até o supermercado mais próximo.  |3- Otimizar o tempo e conseguir estudar, cuidar de sua avó e dos serviços de casa de uma forma mais tranquila|
 |4- Empresário    | 4- Agendar a entrega de produtos em sua casa para evitar o risco de contaminação.   |4- Não sair de casa e evitar o contato com muitas pessoas, já que os meus pais são grupo de risco|
 |5- Professora e Dona de casa | 5- Ter uma alternativa pra fazer compras, além das formas tradicionais. |5-  Facilitar as compras, otimizar o tempo, e evitar aglomerações, pelo fato de ser hipertensa e do grupo de risco  |
