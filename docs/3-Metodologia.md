@@ -17,7 +17,7 @@ Scrum Master: Gabriel Hirano e Clara Rezende.
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+O desenvolvimento do projeto foi composto por algumas etapas, tais como: reuniões de planejamento, para decidir como o trabalho será desenvolvido, a divisão de tarefas, reuniões diárias para sincronizar a equipe e deixar todos a par dos acontecimentos, a revisão para revisar o andamento do projeto e por fim a retrospectiva, que analisa a parte final, o que foi executado corretamente e o que pode ser melhorado. 
  
 
 
