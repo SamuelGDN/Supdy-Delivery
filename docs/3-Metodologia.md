@@ -10,12 +10,8 @@ Para a construção do projeto Delivery de Supermercado, foram utilizados conhec
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+Equipe: Clara Rezende, Gabriel Hirano, Gustavo Augusto, Samuel Gonzaga e Sthephanie Ingrid (Full stack).
+Scrum Master: Gabriel Hirano e Clara Rezende. 
 
 ### Processo
 
