@@ -17,7 +17,7 @@ Scrum Master: Gabriel Hirano e Clara Rezende.
 
 ### Processo
 
-O desenvolvimento do projeto foi composto por algumas etapas, tais como: reuniões de planejamento, para decidir como o trabalho será desenvolvido, a divisão de tarefas, reuniões diárias para sincronizar a equipe e deixar todos a par dos acontecimentos, a revisão para revisar o andamento do projeto e por fim a retrospectiva, que analisa a parte final, o que foi executado corretamente e o que pode ser melhorado. 
+O desenvolvimento do projeto foi composto por algumas etapas, tais como: reuniões de planejamento, para decidir como o trabalho será desenvolvido, a divisão de tarefas, reuniões diárias para sincronizar a equipe e deixar todos a par dos acontecimentos, a revisão para revisar o andamento do projeto e por fim a retrospectiva, que analisa a parte final, o que foi executado corretamente e o que pode ser melhorado. Nesse contexto, a comunicação do grupo foi feita via WhatsApp. 
  
 
 
