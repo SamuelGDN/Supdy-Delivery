@@ -32,5 +32,7 @@ O desenvolvimento do projeto foi composto por algumas etapas, tais como: reuniõ
 As ferramentas empregadas no projeto são:
 
 - Editor de código: Visual Studio Code
-- Ferramentas de comunicação: Whatsapp
+- Ferramentas de comunicação: Whatsapp e Teams
 - Ferramentas de diagramação: Balsamiq
+
+Utilizamos as ferramentas de comunicação para desenvolver o projeto e separar as tarefas de cada integrante da equipe. Além disso, o Balsamiq foi utilizado para criar o wireframe, tanto para arquitetar, quando para adicionar os recursos visuais, como textos e blocos. 
