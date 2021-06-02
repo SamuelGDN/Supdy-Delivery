@@ -72,3 +72,6 @@ h3{
 .btn{
     margin-right: -10%;
 }
+.line{
+    border-top: thin solid rgba(233, 229, 229, 0.761);
+}
