@@ -12,31 +12,6 @@ footer#rodape a.cc{
     font-size: 2em;
 }
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-margin-bottom: 4rem;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-bottom: 3rem;
-z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel-item {
-height: 32rem;
-}
-.carousel-item > img {
-position: absolute;
-top: 0;
-left: 0;
-min-width: 100%;
-height: 32rem;
-}
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -93,4 +68,61 @@ letter-spacing: -.05rem;
 .featurette-heading {
     margin-top: 7rem;
 }
+}
+
+.summary-box{
+    width: 80%;
+    height: 400px;
+    background-color: rgb(187, 187, 187);
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.resumo {
+    padding: 5%;
+}
+.itens{
+    margin-top: -5%;
+}
+
+ul {
+    padding-left: 0rem;
+}
+
+h3{
+    margin-bottom: 10%;
+}
+
+.check{
+    height: 70px;
+    width: 70px;
+  }
+
+
+.confirmacao{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-bottom:thin solid rgba(0, 0, 0, 0.337);
+    padding-bottom: 20px;
+}
+
+.mensagem_confirm{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom:thin solid rgba(0, 0, 0, 0.337);
+}
+
+.total{
+    border-top:thin solid white;
+}
+
+.titulo_info{
+    margin-bottom: 30px;
+}
+
+.info_cliente{
+    border-bottom:thin solid rgba(0, 0, 0, 0.337);
+    margin-bottom: 80px;
+    padding-bottom: 15px;
 }
