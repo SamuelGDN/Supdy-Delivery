@@ -94,3 +94,104 @@ letter-spacing: -.05rem;
     margin-top: 7rem;
 }
 }
+
+.summary-box{
+    width: 80%;
+    height: 400px;
+    background-color: rgb(187, 187, 187);
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.resumo {
+    padding: 5%;
+}
+.itens{
+    margin-top: -5%;
+}
+
+ul {
+    padding-left: 0rem;
+}
+
+h3{
+    margin-bottom: 10%;
+}
+
+.check{
+    height: 70px;
+    width: 70px;
+  }
+
+
+.confirmacao{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-bottom:thin solid rgba(0, 0, 0, 0.337);
+    padding-bottom: 20px;
+}
+
+.mensagem_confirm{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom:thin solid rgba(0, 0, 0, 0.337);
+}
+
+.total{
+    border-top:thin solid white;
+}
+
+.titulo_info{
+    margin-bottom: 30px;
+}
+
+.info_cliente{
+    border-bottom:thin solid rgba(0, 0, 0, 0.337);
+    margin-bottom: 80px;
+    padding-bottom: 15px;
+}
+
+
+.text-box {
+    margin: 0.5% 0 1% 3%;
+    border-bottom:thin solid rgba(0, 0, 0, 0.337);
+    padding: 10px;
+
+}
+
+.agradecimento{
+    margin-bottom: 50px;
+}
+
+.email{
+    margin-bottom: 50px;
+    padding: 30px;
+    
+}
+
+.icones_email{
+    text-align: right;
+}
+
+.titulo_pedido{
+    border-bottom:thin solid black;
+    padding: 10px;
+}
+
+.titulo_resumo{
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.resumo{
+    margin-top: 30px;
+}
+
+.soma{
+    border-bottom:thin solid black;
+}
+
+.titulo_info{
+    margin-bottom: 40px;
+}
