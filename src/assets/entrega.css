@@ -26,7 +26,7 @@
     padding: 5%;
 }
 .itens{
-    margin-top: -5%;
+    margin-top: 0;
 }
 ul {
     padding-left: 0rem;
@@ -39,6 +39,7 @@ h3{
 }
 .btn{
     margin-right: -10%;
+    width: 100%;
 } 
 
 .line{
