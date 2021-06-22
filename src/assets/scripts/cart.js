@@ -9,6 +9,7 @@ $(document).ready(function(){
 		var produto = data.cervejas.filter(c => c.codigo == id)[0];
 		$('#cart-item p.description').html(produto.description);
 		$('#cart-item p.price').html(produto.preco);
+		$('#cart-item img').attr('src', produto.img);
 		$('.summary-box p.subtotal').html(produto.preco);
 		$('.summary-box p.delivery').html(1);
 		$('.summary-box p.other').html(0);

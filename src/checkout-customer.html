@@ -82,8 +82,7 @@
                                     <a class="path" href="captura.html"><strong>Entrar</strong></a>
                                 </p>
                             </div>
-                            <input type="email" class="field" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-                            
+                            <input type="email" name="email" class="field" id="inputEmail" placeholder="Email">
                         </form>
                     </div>
                 </div>
@@ -95,59 +94,72 @@
                                     Informações do Cliente
                                 </p>
                             </div>
-                            
-                            <input type="email" class="field" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nome Completo">
-                            <input type="email" class="field" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Empresa(opcional)">
+
+                            <input type="text" name="nome" class="field" id="inputNome" placeholder="Nome Completo">
+                            <input type="text" name="empresa" class="field" id="inputEmpresa"
+                                placeholder="Empresa(opcional)">
                             <div class="row">
-                                <div class="col-9">
-                                    <input type="email" class="field" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Edereço">
+                                <div class="col-6">
+                                    <input type="text" name="endereco" class="field" id="inputEndereco"
+                                        placeholder="Edereço">
                                 </div>
                                 <div class="col-3">
-                                    <input type="email" class="field split" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Numero">
+                                    <input type="text" name="numero" class="field" id="inputNumero"
+                                        placeholder="Numero">
+                                </div>
+                                <div class="col-3">
+                                    <input type="text" name="complemento" class="field" id="inputComplemento"
+                                        placeholder="Complemento (opc)">
                                 </div>
                             </div>
 
-                            <div class="row top-side" >
-                                <div class="col-5">
-                                    <input type="email" class="field" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Complemento(opc)">
+                            <div class="row top-side">
+                                <div class="col-3">
+                                    <input type="text" name="bairro" class="field" id="inputBairro"
+                                        placeholder="Bairro">
                                 </div>
                                 <div class="col-5">
-                                    <select class="form-select top-side" aria-label="Default select example">
+                                    <input type="text" name="cidade" class="field" id="inputCidade"
+                                        placeholder="Cidade">
+                                </div>
+                                <div class="col-2">
+                                    <select class="form-select top-side" class="field" name="estado"
+                                        aria-label="Default select example">
                                         <option selected>Estado</option>
-                                        <option value="1">AC</option>
-                                        <option value="2">AL</option>
-                                        <option value="3">AP</option>
-                                        <option value="4">AM</option>
-                                        <option value="5">BA</option>
-                                        <option value="6">CE</option>
-                                        <option value="7">DF</option>
-                                        <option value="8">ES</option>
-                                        <option value="9">GO</option>
-                                        <option value="10">MT</option>
-                                        <option value="11">MS</option>
-                                        <option value="12">MG</option>
-                                        <option value="13">PA</option>
-                                        <option value="14">PB</option>
-                                        <option value="15">PR</option>
-                                        <option value="16">PE</option>
-                                        <option value="17">PI</option>
-                                        <option value="18">RJ</option>
-                                        <option value="19">RN</option>
-                                        <option value="20">RS</option>
-                                        <option value="21">RO</option>
-                                        <option value="22">RR</option>
-                                        <option value="23">SC</option>
-                                        <option value="24">SP</option>
-                                        <option value="25">SE</option>
-                                        <option value="26">TO</option>
-                                        <option value="27">MA</option>
+                                        <option>AC</option>
+                                        <option>AL</option>
+                                        <option>AP</option>
+                                        <option>AM</option>
+                                        <option>BA</option>
+                                        <option>CE</option>
+                                        <option>DF</option>
+                                        <option>ES</option>
+                                        <option>GO</option>
+                                        <option>MT</option>
+                                        <option>MS</option>
+                                        <option>MG</option>
+                                        <option>PA</option>
+                                        <option>PB</option>
+                                        <option>PR</option>
+                                        <option>PE</option>
+                                        <option>PI</option>
+                                        <option>RJ</option>
+                                        <option>RN</option>
+                                        <option>RS</option>
+                                        <option>RO</option>
+                                        <option>RR</option>
+                                        <option>SC</option>
+                                        <option>SP</option>
+                                        <option>SE</option>
+                                        <option>TO</option>
+                                        <option>MA</option>
                                     </select>
                                 </div>
                                 <div class="col-2">
-                                    <input type="email" class="field cep" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Cep">
+                                    <input type="text" name="cep" class="field cep" id="inputCep" placeholder="Cep">
                                 </div>
                             </div>
-                            
+
                         </form>
                     </div>
 
@@ -156,7 +168,7 @@
             <div class="col-6">
                 <div class="summary-box">
 
-                    <div class="resumo" >
+                    <div class="resumo">
 
                         <h3>Resumo(...) itens</h3>
                         <ul class="row itens">
@@ -191,12 +203,9 @@
                                 R$ ---
                             </p>
                         </ul>
-
                     </div>
-
-
                 </div>
-   
+
             </div>
         </div>
 
@@ -208,16 +217,15 @@
                         <a class="path" href="cart.html"><strong> Voltar para carrinho</strong></a>
                     </div>
                     <div class="col-6 text-right">
-                        <a href="checkout-entrega.html" role="button" class="btn btn-outline-dark">Continuar</a>
+                        <a href="checkout-entrega.html" id="btnContinuar" role="button"
+                            class="btn btn-outline-dark">Continuar</a>
                     </div>
                 </div>
-
- 
             </div>
         </div>
 
 
-        
+
     </main>
     <!-- Fim Conteúdo -->
 
@@ -240,7 +248,7 @@
                 <a class="me-4 text-reset " href="captura.html">Carnes</a>
                 <a class="me-4 text-reset " href="captura.html">Limpeza</a>
             </div>
-        </section>       
+        </section>
     </footer>
     <!-- Footer -->
 
