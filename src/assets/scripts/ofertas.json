@@ -1,0 +1,45 @@
+{
+	"cervejas": [
+		{
+			"description": "Cerveja Brahma Duplo Malte Lata 350ml",
+			"preco": 2.99,
+			"img": "assets/img/brahma.jpeg",
+			"codigo": ""
+		},
+
+		{
+			"description": "Cerveja Heineken Lata 350ml",
+			"preco": 3.99,
+			"img": "assets/img/heineken.png",
+			"codigo": ""
+		},
+
+		{
+			"description": "Cerveja Bohemia Pilsen Lata 350ml",
+			"preco": 3.49,
+			"img": "assets/img/bohemia.png",
+			"codigo": ""
+		},
+
+		{
+			"description": "Cerveja Skol Beats Secret Lata 269ml",
+			"preco": 4.99,
+			"img": "assets/img/beats.jpeg",
+			"codigo": ""
+		},
+
+		{
+			"description": "Cerveja Budweiser Lata 350ml",
+			"preco": 2.99,
+			"img": "assets/img/bud.jpg",
+			"codigo": ""
+		},
+
+		{
+			"description": "Cerveja Petra Puro Malte Lata 350ml",
+			"preco": 2.99,
+			"img": "assets/img/petra.jpg",
+			"codigo": ""
+		}
+	]
+}
