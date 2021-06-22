@@ -75,22 +75,20 @@
             </div>            
             <div class="row">
                 <div class="col-6">
-                    <div class="row text-box">
+                    <div id="cart-item" class="row text-box">
                         <div class="col-12">
                             <h2 class="titulo_resumo">Resumo do Pedido</h2>
                             <div class="row">
-                                <div class="col-2">
-                                    <img src="assets/img/brahma-duplo-malte-750x430.jpeg" width="90%" height="90%">
+                                <div class="col-4 p-2">
+                                    <img src="assets/img/brahma-duplo-malte-750x430.jpeg" style="max-width: 100%;">
                                 </div>
-                                <div class="col-4">
+                                <div class="col-4 p-2">
                                     <p class="description">
-                                        Cerveja Brahma Duplo Malte<br>
-                                        450ml
+                                        
                                     </p>
 
                                 </div>
-                                <div class="col-2"></div>
-                                <div class="col-4">
+                                <div class="col-4 p-2">
                                     <p>
                                         R$ 20,00 x 1
                                     </p>
@@ -138,14 +136,14 @@
                 <div class="col-6">
                     <div class="summary-box">
 
-                        <div class="resumo">
-
+                        <div class="resumo" >
+    
                             <h3>Resumo(...) itens</h3>
                             <ul class="row itens">
                                 <p class="col-6">
                                     SubTotal
                                 </p>
-                                <p class="col-6 text-right">
+                                <p class="col-6 text-right subtotal">
                                     R$ ---
                                 </p>
                             </ul>
@@ -153,7 +151,7 @@
                                 <p class="col-6">
                                     Entrega
                                 </p>
-                                <p class="col-6 text-right">
+                                <p class="col-6 text-right delivery">
                                     R$ ---
                                 </p>
                             </ul>
@@ -161,32 +159,24 @@
                                 <p class="col-6">
                                     Outras Taxas
                                 </p>
-                                <p class="col-6 text-right">
-                                    R$ ---
+                                <p class="col-6 text-right other">
+                                    R$ 1
                                 </p>
                             </ul>
-                            <ul class="row line total" style="margin-top: 20%;">
+                            <ul class="row line" style="margin-top: 20%;">
                                 <p class="col-6" style="margin-top: 5%;">
                                     Total
                                 </p>
-                                <p class="col-6 text-right" style="margin-top: 5%;">
+                                <p class="col-6 text-right total" style="margin-top: 5%;">
                                     R$ ---
                                 </p>
                             </ul>
-
-
+    
                         </div>
-
-
                     </div>
-
                 </div>
-
             </div>
-
-
         </div>
-
     </main>
 
 
@@ -226,9 +216,7 @@
 
     <script src="https://kit.fontawesome.com/5b4b9d87ee.js" crossorigin="anonymous"></script>
 
-    <script src="assets/templates.js"></script>
-    <script src="assets/script.js"></script>
-
+    <script src="assets/scripts/checkout.js"></script>
 </body>
 
 </html>

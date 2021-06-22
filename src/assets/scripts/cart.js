@@ -13,6 +13,8 @@ $(document).ready(function(){
 		$('.summary-box p.delivery').html(1);
 		$('.summary-box p.other').html(0);
 		$('.summary-box p.total').html(produto.preco + 1);
+
+		window.sessionStorage.setItem('produto', JSON.stringify(produto));
 	});
 });
 
