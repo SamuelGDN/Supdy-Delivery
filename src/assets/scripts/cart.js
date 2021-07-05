@@ -15,7 +15,6 @@
 		if(id){
 			quantity = quantity ? parseInt(quantity) : 1;
 			$.get('assets/scripts/ofertas.json', function(data){
-				console.log(data);
 				var product = data.cervejas.filter(c => c.codigo == id)[0];
 				var cart = addToCart(product, quantity);
 				loadCartTemplates(cart);
