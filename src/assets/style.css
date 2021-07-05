@@ -1,3 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+    /*========== Font and typography ==========*/
+  --body-font: 'Poppins', sans-serif;
+  --biggest-font-size: 2.25rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+}
+
+body{
+    /*========== Font and typography ==========*/
+    font-family: 'Poppins', sans-serif;
+  --biggest-font-size: 2.25rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+}
+
+#cabecalho{
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    text-align: center;
+    transition: .4s;
+    border-radius: 0 0 1rem 1rem;
+    margin-bottom: 60px;
+    width: 100%;
+    box-shadow: 0 4px 4px rgba(0,0,0,.1);
+}
+
+main{
+    margin-top: 68px;
+}
+
+.right-menu a{
+    margin: 0px 10px;
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+
+.right-menu a:hover{
+    color: #0b9d8a;
+    transition: all ease 0.3s;
+}
+
+.fa-shopping-cart{
+    position: relative;
+}
+
+.num-cart-product{
+    position: absolute;
+    top: -17px;
+    right: -17px;
+    width:25px;
+    height: 25px;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: #0b9d8a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
 nav#cabecalho #cart{
     font-size: 2.5em;
     text-decoration: none;
