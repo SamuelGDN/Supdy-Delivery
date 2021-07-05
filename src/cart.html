@@ -45,22 +45,14 @@
                         <a class="nav-link " href="captura.html">| Limpeza</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-
-                    <a id="cart" class="#" href=""><i class="fa fa-search"></i></a>
-                    <a id="cart" class="#" href=""><i class="fa fa-shopping-cart"></i> (0)</a>
+                <form id="cart-header" class="d-flex">
                 </form>
             </div>
         </div>
     </nav>
 
-
     <!-- Conteúdo -->
     <main class="container-fluid">
-        <div>
-
-        </div>
-
         <div class="row title-cart">
             <div class="col-6">
                 <div class="row">
@@ -72,134 +64,30 @@
                     <div class="col-12 text-box">
                         <div class="row">
                             <div class="col-6">
-                                <p>
-                                    Item
-                                </p>
-                            </div>
-
-                            <div class="col-3">
-                                <p>
-                                    Quantidade
-                                </p>
-                            </div>
-                            <div class="col-1"></div>
-                            <div class="col-2">
-                                <p>
-                                    Preço
-                                </p>
-                            </div>
-
-                        </div>
-                        
-                    </div>
-
-                </div>
-                <div class="row">
-                    <div class="col-12 text-box">
-                        <div id="cart-item" class="row">
-                            <div class="col-2">
-                                <img src="assets/img/image.png" width="90%" height="90%">
+                                Item
                             </div>
                             <div class="col-4">
-                                <p class="description">
-                                    Description here...
-                                </p>
+                                Quantidade
                             </div>
                             <div class="col-2">
-                                <select class="form-select top-side" aria-label="Default select example">
-                                    <option selected value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                    <option value="6">6</option>
-                                    <option value="7">7</option>
-                                    <option value="8">8</option>
-                                    <option value="9">9</option>
-                                    <option value="10">10</option>
-                 
-                                </select>
-                            </div>
-                            <div class="col-2"></div>
-                            <div class="col-2">
-                                <p class="price">
-                                    R$ --
-                                </p>
+                                Preço
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-6">
-                <div class="summary-box">
-
-                    <div class="resumo" >
-
-                        <h3>Resumo(...) itens</h3>
-                        <ul class="row itens">
-                            <p class="col-6">
-                                SubTotal
-                            </p>
-                            <p class="col-6 text-right subtotal">
-                                R$ ---
-                            </p>
-                        </ul>
-                        <ul class="row itens">
-                            <p class="col-6">
-                                Entrega
-                            </p>
-                            <p class="col-6 text-right delivery">
-                                R$ ---
-                            </p>
-                        </ul>
-                        <ul class="row itens">
-                            <p class="col-6">
-                                Outras Taxas
-                            </p>
-                            <p class="col-6 text-right other">
-                                R$ ---
-                            </p>
-                        </ul>
-                        <ul class="row line" style="margin-top: 20%;">
-                            <p class="col-6" style="margin-top: 5%;">
-                                Total
-                            </p>
-                            <p class="col-6 text-right total" style="margin-top: 5%;">
-                                R$ ---
-                            </p>
-                        </ul>
-                                                
-                    </div>
+                <div id="cart-items" class="row">
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-6 text-box" style="margin: 1% 3%; border-top:thin solid rgba(0, 0, 0, 0.337);">
-                <div class="row">
-                    <div class="col-10"></div>
-                    <div class="col-2" style="margin-top: 2%">
-                        <p>
-                            SubTotal: R$ --
-                        </p>
-                    </div>
-                </div>
+            <div class="col-6" id="cart-summary">
             </div>
-            
-            <div align="left" class="col-5" style="margin-top: 30px;">
-                <a href="checkout-customer.html" class="btn btn-outline-dark" role="button">Continuar</a>
-            </div>                    
-            < 	
         </div>
-
-
-
-        
+        <div class="row" id="cart-subtotal">
+        </div>
     </main>
     <!-- Fim Conteúdo -->
 
     <!-- Rodapé -->
     <footer id="rodape" class="text-center text-lg-start bg-light text-muted">
-
         <!-- Menu inferior -->
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <div class="me-5 d-none d-lg-block">
@@ -216,20 +104,96 @@
                 <a class="me-4 text-reset " href="captura.html">Carnes</a>
                 <a class="me-4 text-reset " href="captura.html">Limpeza</a>
             </div>
-        </section>       
+        </section>
     </footer>
+
+    <!-- Templates -->
+    <script type="text/html" id="template-cart-header">
+        <a id="cart" class="#" href=""><i class="fa fa-search"></i></a>
+        <a id="cart" class="#" href=""><i class="fa fa-shopping-cart"></i>(<span data-content="totalItems"></span>)</a>
+    </script>
+
+    <script type="text/html" id="template-subtotal">
+        <div class="col-6 text-box" style="margin: 1% 3%; border-top:thin solid rgba(0, 0, 0, 0.337);">
+            <div class="row">
+                <div class="col-10"></div>
+                <div class="col-2" style="margin-top: 2%">
+                    <p>
+                        SubTotal: <span data-content="subtotal"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-5 text-left" style="margin-top: 30px;">
+            <a href="checkout-customer.html" class="btn btn-outline-dark" role="button">Continuar</a>
+        </div>
+    </script>
+
+    <script type="text/html" id="template-sumary">
+        <div class="summary-box">
+            <div class="resumo">
+                <h3>Resumo</h3>
+                <ul class="row itens">
+                    <p class="col-6">
+                        SubTotal
+                    </p>
+                    <p class="col-6 text-right" data-content="subtotal">
+                    </p>
+                </ul>
+                <ul class="row itens">
+                    <p class="col-6">
+                        Entrega
+                    </p>
+                    <p class="col-6 text-right" data-content="entrega">
+                    </p>
+                </ul>
+                <ul class="row itens">
+                    <p class="col-6">
+                        Outras Taxas
+                    </p>
+                    <p class="col-6 text-right" data-content="outras">
+                    </p>
+                </ul>
+                <ul class="row line" style="margin-top: 20%;">
+                    <p class="col-6" style="margin-top: 5%;">
+                        Total
+                    </p>
+                    <p class="col-6 text-right" data-content="total">
+                    </p>
+                </ul>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/html" id="template-cart-item">
+        <div class="col-12 text-box">
+            <div id="cart-item" class="row">
+                <div class="col-2">
+                    <img data-src="product.img" width="90%" height="90%">
+                </div>
+                <div class="col-4">
+                    <p class="description" data-content="product.description"></p>
+                </div>
+                <div class="col-2">
+                    <input type="number" name="quantity" class="field" id="inputQuantity"
+                    placeholder="Quantidade" data-value="quantity"> 
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2">
+                    <p class="price" data-content="product.preco"></p>
+                </div>
+            </div>
+        </div>
+    </script>
+
     <!-- Footer -->
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
     <script src="https://kit.fontawesome.com/5b4b9d87ee.js" crossorigin="anonymous"></script>
-
+    <script src="assets/scripts/jquery.loadTemplate-1.4.4.min.js"></script>
     <script src="assets/scripts/cart.js"></script>
 
 </body>

@@ -56,123 +56,41 @@
 
     </header>
 
-    <main>
-
-        <div class="container-fluid">
-            <div style="margin-top: 2%;" class="row">
-                <div class="col-6">
-                    <div class="row text-box">
-                        <div class="col-2">
-                            <img src="assets/img/checked.png" alt="iconSucess" class="check">
-                        </div>
-                        <div class="col-10">
-                            <h2>Pedido Confirmado</h2>
-                            <p>Pedido (...)</p>
-                        </div>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <div class="row text-box">
+                    <div class="col-2">
+                        <img src="assets/img/checked.png" alt="iconSucess" class="check">
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-6">
-                    <div id="cart-item" class="row text-box">
-                        <div class="col-12">
-                            <h2 class="titulo_resumo">Resumo do Pedido</h2>
-                            <div class="row">
-                                <div class="col-4 p-2">
-                                    <img src="assets/img/brahma-duplo-malte-750x430.jpeg" style="max-width: 100%;">
-                                </div>
-                                <div class="col-4 p-2">
-                                    <p class="description">
-
-                                    </p>
-                                </div>
-                                <div class="col-4 p-2">
-                                    <p>
-                                        R$ 20,00 x 1
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row text-box">
-                        <div class="col-12 informacoes-cliente">
-                            <h2 class="titulo_info">Informações do Cliente</h2>
-                            <div class="row">
-                                <div class="col-6">
-                                    <p>
-                                        <strong>Endereço de Envio</strong><br>
-                                        <span id="nome"></span> - <span id="empresa"></span><br>
-                                        <span id="endereco"></span>, <span id="numero"></span> <span id="complemento"></span><br>
-                                        <span id="bairro"></span><br>
-                                        <span id="cidade"></span>/<span id="estado"></span><br>
-                                        <span></span>
-                                    </p>
-                                    <p>
-                                        <strong>Método de Envio</strong><br>
-                                        Entrega po Motoboy (Tempo estimado de 1 a 2 dias).
-                                    </p>
-                                </div>
-                                <div class="col-6">
-                                    <p>
-                                        <strong>Método de Pagamento</strong><br>
-                                        <span class="me-4 text-reset cc" href="captura.html"><i
-                                                class="fa fa-cc-visa"></i></span>
-                                        Entrega po Motoboy (Tempo estimado de 1 a 2 dias).
-                                    </p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6">
-                    <div class="summary-box">
-
-                        <div class="resumo">
-
-                            <h3>Resumo(...) itens</h3>
-                            <ul class="row itens">
-                                <p class="col-6">
-                                    SubTotal
-                                </p>
-                                <p class="col-6 text-right subtotal">
-                                    R$ ---
-                                </p>
-                            </ul>
-                            <ul class="row itens">
-                                <p class="col-6">
-                                    Entrega
-                                </p>
-                                <p class="col-6 text-right delivery">
-                                    R$ ---
-                                </p>
-                            </ul>
-                            <ul class="row itens">
-                                <p class="col-6">
-                                    Outras Taxas
-                                </p>
-                                <p class="col-6 text-right other">
-                                    R$ 1
-                                </p>
-                            </ul>
-                            <ul class="row line" style="margin-top: 20%;">
-                                <p class="col-6" style="margin-top: 5%;">
-                                    Total
-                                </p>
-                                <p class="col-6 text-right total" style="margin-top: 5%;">
-                                    R$ ---
-                                </p>
-                            </ul>
-
-                        </div>
+                    <div class="col-10">
+                        <h2>Pedido Confirmado</h2>
+                        <p>Pedido (...)</p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-6">
+                <div id="cart-item" class="row text-box">
+                    <div class="col-12">
+                        <h2 class="titulo_resumo">Resumo do Pedido</h2>
+                        <div id="cart-items" class="row">
+                        </div>
+                        <div class="row" id="cart-items">
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-box">
+                    <div id="informacoes-cliente" class="col-12">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6" id="cart-summary">
+            </div>
+        </div>
     </main>
-
-
 
     <!-- Fim Conteúdo -->
 
@@ -197,8 +115,85 @@
             </div>
         </section>
     </footer>
-    <!-- Footer -->
 
+    <!-- Templates -->
+    <script type="text/html" id="template-sumary">
+        <div class="summary-box">
+            <div class="resumo">
+                <h3>Resumo</h3>
+                <ul class="row itens">
+                    <p class="col-6">
+                        SubTotal
+                    </p>
+                    <p class="col-6 text-right" data-content="subtotal">
+                    </p>
+                </ul>
+                <ul class="row itens">
+                    <p class="col-6">
+                        Entrega
+                    </p>
+                    <p class="col-6 text-right" data-content="entrega">
+                    </p>
+                </ul>
+                <ul class="row itens">
+                    <p class="col-6">
+                        Outras Taxas
+                    </p>
+                    <p class="col-6 text-right" data-content="outras">
+                    </p>
+                </ul>
+                <ul class="row line" style="margin-top: 20%;">
+                    <p class="col-6" style="margin-top: 5%;">
+                        Total
+                    </p>
+                    <p class="col-6 text-right" data-content="total">
+                    </p>
+                </ul>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/html" id="template-cart-item">
+        <div class="col-4 p-2">
+            <img data-src="product.img" style="max-width: 100%;">
+        </div>
+        <div class="col-4 p-2">
+            <p class="description" data-content="product.description"></p>
+        </div>
+        <div class="col-4 p-2">
+            <p>
+                <span data-content="product.preco"></span> x <span data-content="quantity"></span>
+            </p>
+        </div>
+    </script>
+
+    <script type="text/html" id="template-cliente">
+        <h2 class="titulo_info">Informações do Cliente</h2>
+        <div class="row">
+            <div class="col-6">
+                <p>
+                    <strong>Endereço de Envio</strong><br>
+                    <span data-content="nome"></span> - <span data-content="empresa"></span><br>
+                    <span data-content="endereco"></span>, <span data-content="numero"></span> <span data-content="complemento"></span><br>
+                    <span data-content="bairro"></span><br>
+                    <span data-content="cidade"></span>/<span data-content="estado"></span><br>
+                    <span></span>
+                </p>
+                <p>
+                    <strong>Método de Envio</strong><br>
+                    Entrega po Motoboy (Tempo estimado de 1 a 2 dias).
+                </p>
+            </div>
+            <div class="col-6">
+                <p>
+                    <strong>Método de Pagamento</strong><br>
+                    <span class="me-4 text-reset cc" href="captura.html"><i
+                            class="fa fa-cc-visa"></i></span>
+                    Entrega po Motoboy (Tempo estimado de 1 a 2 dias).
+                </p>
+            </div>
+        </div>
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
@@ -208,7 +203,7 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <script src="https://kit.fontawesome.com/5b4b9d87ee.js" crossorigin="anonymous"></script>
-
+    <script src="assets/scripts/jquery.loadTemplate-1.4.4.min.js"></script>
     <script src="assets/scripts/checkout-sucesso.js"></script>
 </body>
 

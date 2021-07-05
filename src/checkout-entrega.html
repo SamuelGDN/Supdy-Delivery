@@ -1,239 +1,240 @@
 <!doctype html>
 <html lang="pt-br">
-    <head>
-        <!-- Meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-        <link href="assets/entrega.css" rel="stylesheet">
-        <title>Delivery Supermercados</title>
-    </head>
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-    <body>
-        <!-- Cabeçalho -->
-        <nav id="cabecalho" class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">SUP DY</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="captura.html">Bazar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="captura.html">| Bebidas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="captura.html">| Despensa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="captura.html">| Hortifrut</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="captura.html">| Carnes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="captura.html">| Limpeza</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <a id="cart" class="#" href=""><i class="fa fa-search"></i></a>
-                        <a id="cart" class="#" href=""><i class="fa fa-shopping-cart"></i> (0)</a>
-                    </form>
-                </div>
+    <link href="assets/entrega.css" rel="stylesheet">
+    <title>Delivery Supermercados</title>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <nav id="cabecalho" class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">SUP DY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="captura.html">Bazar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="captura.html">| Bebidas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="captura.html">| Despensa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="captura.html">| Hortifrut</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="captura.html">| Carnes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="captura.html">| Limpeza</a>
+                    </li>
+                </ul>
+                <form id="cart-header" class="d-flex">
+                </form>
             </div>
-        </nav>
-        <!-- Conteúdo -->
-        <main class="container-fluid">
-            <div class="row">
-                <div class="col-6 teste">
-                    <p>
-                        <a class="path" href="captura.html">Carrinho </a> >
-                        <a class="path" href="captura.html">Informações do Cliente</a> > 
-                        <a class="path" href="captura.html">Informações de Entrega</a>
-                    </p>
-                </div>
+        </div>
+    </nav>
+    <!-- Conteúdo -->
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-6 teste">
+                <p>
+                    <a class="path" href="captura.html">Carrinho </a> >
+                    <a class="path" href="captura.html">Informações do Cliente</a> >
+                    <a class="path" href="captura.html">Informações de Entrega</a>
+                </p>
             </div>
-            <div class="row">
-                <div class="col-6">
-                    <div class="row">
-                        <div class="col-12 text-box">
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-12 text-box">
 
+                        <div class="row">
+                            <p class="col-6" style="font-size:14px;">
+                                <strong>Endereço de Entrega</strong>
+                                rua um, 222 - Niteroi/Rio de Janeiro
+                            </p>
+                            <p class="col-6 text-right">
+                                <a href="captura.html"
+                                    style="font-size: 12px; text-decoration: none; color:black;"><strong>Edit</strong></a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-box">
+                        <form>
                             <div class="row">
-                                <p class="col-6" style="font-size:14px;">
-                                    <strong>Endereço de Entrega</strong> 
-                                    rua um, 222 - Niteroi/Rio de Janeiro
-                                </p>
-                                <p class="col-6 text-right">
-                                    <a href="captura.html" style="font-size: 12px; text-decoration: none; color:black;"><strong>Edit</strong></a>
+                                <p class="col-6">
+                                    Informações do Cliente
                                 </p>
                             </div>
 
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 text-box">
-                            <form>
-                                <div class="row">
-                                    <p class="col-6">
-                                        Informações do Cliente
-                                    </p>
-                                </div>
-                                
-                               <div class="row">
-                                    <ul class="col-12">
-                                        <li class="row">
-                                            <div class="col-1">
-                                                <input type="radio" name="motoboy">
-                                            </div>
-                                            <div class="col-9">
-                                                <p style="font-size: 14px">
-                                                    Entrega por motoboy (Estimado entre 30m a 60m)
-                                                </p>
-                                            </div>
-                                            <div class="col-2">
-                                                <p>
-                                                    R$ 1
-                                                </p>
-                                            </div>
-                                            
-                                        </li>
-                                        <li class="row">
-                                            <div class="col-1">
-                                                <input type="radio" name="motoboy">
-                                            </div>
-                                            <div class="col-9">
-                                                <p style="font-size: 14px">
-                                                    Entrega Agendada
-                                                </p>
-                                            </div>
-                                            <div class="col-2">
-                                                <p>
-                                                    R$ 1
-                                                </p>
-                                            </div>
-                                            
-                                        </li>
-                                        <li class="row">
-                                            <div class="col-1">
-                                                <input type="radio" name="motoboy">
-                                            </div>
-                                            <div class="col-9">
-                                                <p style="font-size: 14px">
-                                                    Buscar pedido
-                                                </p>
-                                            </div>
-                                            <div class="col-2">
-                                                <p>
-                                                    R$ 1
-                                                </p>
-                                            </div>
-                                            
-                                        </li>
-                                    </ul>
-                               </div>
-                                
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="summary-box">
+                            <div class="row">
+                                <ul class="col-12">
+                                    <li class="row">
+                                        <div class="col-1">
+                                            <input type="radio" name="entrega" value="5">
+                                        </div>
+                                        <div class="col-9">
+                                            <p style="font-size: 14px">
+                                                Entrega por motoboy (Estimado entre 30m a 60m)
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <p>
+                                                R$ 5,00
+                                            </p>
+                                        </div>
 
-                        <div class="resumo" >
-    
-                            <h3>Resumo(...) itens</h3>
-                            <ul class="row itens">
-                                <p class="col-6">
-                                    SubTotal
-                                </p>
-                                <p class="col-6 text-right subtotal">
-                                    R$ ---
-                                </p>
-                            </ul>
-                            <ul class="row itens">
-                                <p class="col-6">
-                                    Entrega
-                                </p>
-                                <p class="col-6 text-right delivery">
-                                    R$ ---
-                                </p>
-                            </ul>
-                            <ul class="row itens">
-                                <p class="col-6">
-                                    Outras Taxas
-                                </p>
-                                <p class="col-6 text-right other">
-                                    R$ 1
-                                </p>
-                            </ul>
-                            <ul class="row line" style="margin-top: 20%;">
-                                <p class="col-6" style="margin-top: 5%;">
-                                    Total
-                                </p>
-                                <p class="col-6 text-right total" style="margin-top: 5%;">
-                                    R$ ---
-                                </p>
-                            </ul>
-    
-                        </div>
-    
-    
+                                    </li>
+                                    <li class="row">
+                                        <div class="col-1">
+                                            <input type="radio" name="entrega" value="8">
+                                        </div>
+                                        <div class="col-9">
+                                            <p style="font-size: 14px">
+                                                Entrega Agendada
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <p>
+                                                R$ 8,00
+                                            </p>
+                                        </div>
+
+                                    </li>
+                                    <li class="row">
+                                        <div class="col-1">
+                                            <input type="radio" name="entrega" value="0">
+                                        </div>
+                                        <div class="col-9">
+                                            <p style="font-size: 14px">
+                                                Buscar pedido
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <p>
+                                                R$ 0,00
+                                            </p>
+                                        </div>
+
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </form>
                     </div>
-       
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6">
-                    <div class="row">
-                        <div class="col-6">
-                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
-                            <a class="path" href="checkout-customer"><strong> Voltar para Informações do Cliente</strong></a>
-                        </div>
-                        <div class="col-6 text-right">
-                            <a href="checkout-sucesso.html" class="btn btn-outline-dark" role="button">Continuar</a>
-                        </div>
-                    </div>
-     
-                </div>
+            <div class="col-6" id="cart-summary">
             </div>
-            
-        </main>
-        <!-- Fim Conteúdo -->
-        <!-- Rodapé -->
-        <footer id="rodape" class="text-center text-lg-start bg-light text-muted">
-            <!-- Menu inferior -->
-            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-                <div class="me-5 d-none d-lg-block">
-                    <h4>SUP DY</h4>
-                    <a class="me-4 text-reset cc" href="captura.html"><i class="fa fa-cc-visa"></i></a>
-                    <a class="me-4 text-reset cc" href="captura.html"><i class="fa fa-cc-mastercard"></i></a>
-                    <a class="me-4 text-reset cc" href="captura.html"><i class="fab fa-cc-amex"></i></a>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-6">
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                        <a class="path" href="checkout-customer"><strong> Voltar para Informações do
+                                Cliente</strong></a>
+                    </div>
+                    <div class="col-6 text-right">
+                        <a href="checkout-sucesso.html" class="btn btn-outline-dark" role="button">Continuar</a>
+                    </div>
                 </div>
-                <div>
-                    <a class="me-4 text-reset" href="captura.html">Bazar</a>
-                    <a class="me-4 text-reset" href="captura.html">Bebidas</a>
-                    <a class="me-4 text-reset " href="captura.html">Despensa</a>
-                    <a class="me-4 text-reset " href="captura.html">Hortifrut</a>
-                    <a class="me-4 text-reset " href="captura.html">Carnes</a>
-                    <a class="me-4 text-reset " href="captura.html">Limpeza</a>
-                </div>
-            </section>       
-        </footer>
-        <!-- Footer -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-            crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/5b4b9d87ee.js" crossorigin="anonymous"></script>
- 
-        <script src="assets/scripts/checkout.js"></script>
-    </body>
+
+            </div>
+        </div>
+
+    </main>
+    <!-- Fim Conteúdo -->
+    <!-- Rodapé -->
+    <footer id="rodape" class="text-center text-lg-start bg-light text-muted">
+        <!-- Menu inferior -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block">
+                <h4>SUP DY</h4>
+                <a class="me-4 text-reset cc" href="captura.html"><i class="fa fa-cc-visa"></i></a>
+                <a class="me-4 text-reset cc" href="captura.html"><i class="fa fa-cc-mastercard"></i></a>
+                <a class="me-4 text-reset cc" href="captura.html"><i class="fab fa-cc-amex"></i></a>
+            </div>
+            <div>
+                <a class="me-4 text-reset" href="captura.html">Bazar</a>
+                <a class="me-4 text-reset" href="captura.html">Bebidas</a>
+                <a class="me-4 text-reset " href="captura.html">Despensa</a>
+                <a class="me-4 text-reset " href="captura.html">Hortifrut</a>
+                <a class="me-4 text-reset " href="captura.html">Carnes</a>
+                <a class="me-4 text-reset " href="captura.html">Limpeza</a>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Templates -->
+    <script type="text/html" id="template-cart-header">
+        <a id="cart" class="#" href=""><i class="fa fa-search"></i></a>
+        <a id="cart" class="#" href=""><i class="fa fa-shopping-cart"></i>(<span data-content="totalItems"></span>)</a>
+    </script>
+
+    <script type="text/html" id="template-sumary">
+        <div class="summary-box">
+            <div class="resumo">
+                <h3>Resumo</h3>
+                <ul class="row itens">
+                    <p class="col-6">
+                        SubTotal
+                    </p>
+                    <p class="col-6 text-right" data-content="subtotal">
+                    </p>
+                </ul>
+                <ul class="row itens">
+                    <p class="col-6">
+                        Entrega
+                    </p>
+                    <p class="col-6 text-right" data-content="entrega">
+                    </p>
+                </ul>
+                <ul class="row itens">
+                    <p class="col-6">
+                        Outras Taxas
+                    </p>
+                    <p class="col-6 text-right" data-content="outras">
+                    </p>
+                </ul>
+                <ul class="row line" style="margin-top: 20%;">
+                    <p class="col-6" style="margin-top: 5%;">
+                        Total
+                    </p>
+                    <p class="col-6 text-right" data-content="total">
+                    </p>
+                </ul>
+            </div>
+        </div>
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5b4b9d87ee.js" crossorigin="anonymous"></script>
+    <script src="assets/scripts/jquery.loadTemplate-1.4.4.min.js"></script>
+    <script src="assets/scripts/checkout.js"></script>
+</body>
+
 </html>
