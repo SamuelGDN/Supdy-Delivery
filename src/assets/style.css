@@ -1,20 +1,79 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
-    /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
-  --biggest-font-size: 2.25rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
+    --header-height: 3rem;
 
-  /*========== Font weight ==========*/
-  --font-medium: 500;
-  --font-semi-bold: 600;
+    /*========== Colors ==========*/
+    --first-color: #06929c;
+    --first-color-alt: #047286;
+    --title-color: #393939;
+    --text-color: #707070;
+    --text-color-light: #A6A6A6;
+    --body-color: #FBFEFD;
+    --container-color: #FFFFFF;
+  
+    /*========== Font and typography ==========*/
+    --body-font: 'Poppins', sans-serif;
+    --biggest-font-size: 2.25rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+  
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+  
+    /*========== Margenes ==========*/
+    --mb-1: .5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+  
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
 }
+
+/*========== HOME ==========*/
+.home__container{
+    height: calc(100vh - var(--header-height));
+    justify-content: center;
+  }
+  
+  .home__title{
+    font-size: var(--biggest-font-size);
+    color: var(--first-color);
+    margin-bottom: var(--mb-1);
+  }
+  
+  .home__subtitle{
+    font-size: var(--h1-font-size);
+    color: var(--title-color);
+    margin-bottom: var(--mb-4);
+  }
+  
+  .home__img{
+    width: 500px;
+    justify-self: center;
+  }
+
+ /*========== LAYOUT ==========*/
+.bd-container{
+    max-width: 960px;
+    width: calc(100% - 2rem);
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+  }
+  
+  .bd-grid{
+    display: grid;
+    gap: 1.5rem;
+  }
 
 body{
     /*========== Font and typography ==========*/
@@ -30,6 +89,7 @@ body{
   /*========== Font weight ==========*/
   --font-medium: 500;
   --font-semi-bold: 600;
+  background-color: var(--body-color);
 }
 
 #cabecalho{
@@ -43,12 +103,16 @@ body{
     margin-bottom: 60px;
     width: 100%;
     box-shadow: 0 4px 4px rgba(0,0,0,.1);
-    background-color: #ffffff;
+    background-color: var(--body-color);
 }
 
+
+
 .nav-link{
-    color: black;
+    color: var(--text-color);
 }
+
+
 
 main{
     margin-top: 68px;
@@ -97,6 +161,11 @@ footer#rodape{
 
 footer#rodape a.cc{
     font-size: 2em;
+}
+
+.link-rodape{
+    color: #6C757D;
+    text-decoration: none;
 }
 
 /* CUSTOMIZE THE CAROUSEL
