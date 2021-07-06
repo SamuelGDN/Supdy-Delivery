@@ -23,6 +23,7 @@
 
     function calculateCart(cart){
 		cart.summary.total = cart.summary.subtotal + cart.summary.entrega + cart.summary.outras;
+        cart.summary.total = cart.summary.total.toFixed(2);
 	}
 
     function getOrCreateCart(){
