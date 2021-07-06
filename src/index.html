@@ -13,7 +13,7 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
     <link href="assets/style.css" rel="stylesheet">
-    <title>Delivery Supermercados 2.0</title>
+    <title>Delivery Supermercados template2.0</title>
     
 </head>
 
@@ -21,12 +21,14 @@
 
     <header>
         <!-- Cabeçalho -->
-        <nav id="cabecalho" class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <nav id="cabecalho" class="navbar navbar-expand-md sticky-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">SUP DY</a>
+                <a class="navbar-brand" style="color: #05a4af" href="index.html">SUP DY</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span>
+                        <img src="assets\img\menu-icon.png" alt="" class="menu-icon">
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
@@ -53,11 +55,12 @@
                         <a href="javascript:void(0);" class="user">
                             <i class="far fa-user"></i>
                         </a>
-                        <a href="#">
+                        <a href="#" class="carrinho">
                             <i class="fas fa-shopping-cart">
                                 <span class="num-cart-product">3</span>
                             </i>
                         </a>
+                        <img src="assets\img\icon-moon.svg" alt="" id="icon" class="icon">
                     </div>
                 </div>
             </div>
@@ -66,6 +69,20 @@
     </header>
 
     <main>
+
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">Sup dy</h1>
+                    <h2 class="home__subtitle"><strong>O melhor jeito de pedir suas compras.</strong></h2>
+                    <a href="#menu" class="button">Ver Menu</a>
+                </div>
+
+                <img src="assets/img/home.png" alt="" class="home__img">
+            </div>
+        </section>
+        
 
         <!-- Carrousel -->
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -137,7 +154,7 @@
         </div>
 
         <!-- Ofertas -->
-        <div class="container container-fluid">
+        <div class="container container-fluid" id="menu">
             <div class="row">
                 <div class="col-md-12">
                     <h1>Ofertas</h1>
@@ -152,10 +169,10 @@
                             <p><strong id="preco"></strong></p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="cart.html" class="btn btn-sm btn-outline-secondary" role="button">Adicionar</a>
+                                    <a href="cart.html" class="btn btn-sm btn-outline-secondary" id="caixa" role="button">Adicionar ao caixa</a>
                                     <a href="cart.html" class="btn btn-sm btn-outline-secondary" role="button">Adicionar caixa c/12</a>
                                 </div>
-                                <small class="text-muted">622249</small>
+                                <small class="codigo-card">622249</small>
                             </div>
                         </div>
                     </div>
@@ -168,10 +185,10 @@
                             <p><strong id="preco"></strong></p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="cart.html" class="btn btn-sm btn-outline-secondary" role="button">Adicionar</a>
+                                    <a href="cart.html" class="btn btn-sm btn-outline-secondary" id="caixa" role="button">Adicionar</a>
                                     <a href="cart.html" class="btn btn-sm btn-outline-secondary" role="button">Adicionar caixa c/12</a>
                                 </div>
-                                <small class="text-muted">622249</small>
+                                <small class="codigo-card">622249</small>
                             </div>
                         </div>
                     </div>
@@ -184,10 +201,10 @@
                             <p><strong id="preco"></strong></p>                            
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="cart.html" class="btn btn-sm btn-outline-secondary" role="button">Adicionar</a>
+                                    <a href="cart.html" class="btn btn-sm btn-outline-secondary" id="caixa" role="button">Adicionar</a>
                                     <a href="cart.html" class="btn btn-sm btn-outline-secondary" role="button">Adicionar caixa c/12</a>
                                 </div>
-                                <small class="text-muted">622249</small>
+                                <small class="codigo-card">622249</small>
                             </div>
                         </div>
                     </div>
@@ -200,10 +217,10 @@
                             <p><strong id="preco"></strong></p>                            
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="cart.html" class="btn btn-sm btn-outline-secondary" role="button">Adicionar</a>
+                                    <a href="cart.html" class="btn btn-sm btn-outline-secondary" id="caixa" role="button">Adicionar</a>
                                     <a href="cart.html" class="btn btn-sm btn-outline-secondary" role="button">Adicionar caixa c/12</a>
                                 </div>
-                                <small class="text-muted">622249</small>
+                                <small class="codigo-card">622249</small>
                             </div>
                         </div>
                     </div>
@@ -216,10 +233,10 @@
                             <p><strong id="preco"></strong></p>                            
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="cart.html" class="btn btn-sm btn-outline-secondary" role="button">Adicionar</a>
+                                    <a href="cart.html" class="btn btn-sm btn-outline-secondary" id="caixa" role="button">Adicionar</a>
                                     <a href="cart.html" class="btn btn-sm btn-outline-secondary" role="button">Adicionar caixa c/12</a>
                                 </div>
-                                <small class="text-muted">622249</small>
+                                <small class="codigo-card">622249</small>
                             </div>
                         </div>
                     </div>
@@ -232,10 +249,10 @@
                             <p><strong id="preco"></strong></p>                            
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="cart.html" class="btn btn-sm btn-outline-secondary" role="button">Adicionar</a>
+                                    <a href="cart.html" class="btn btn-sm btn-outline-secondary" id="caixa" role="button">Adicionar</a>
                                     <a href="cart.html" class="btn btn-sm btn-outline-secondary" role="button">Adicionar caixa c/12</a>
                                 </div>
-                                <small class="text-muted">622249</small>
+                                <small class="codigo-card">622249</small>
                             </div>
                         </div>
                     </div>
@@ -251,7 +268,7 @@
     <!-- Fim Conteúdo -->
 
     <!-- Rodapé -->
-    <footer id="rodape" class="text-center text-lg-start bg-light text-muted">
+    <footer id="rodape" class="text-center text-lg-start">
 
         <!-- Menu inferior -->
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
