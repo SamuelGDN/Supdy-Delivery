@@ -76,6 +76,10 @@
     justify-self: center;
   }
 
+.text-start{
+  color: var(--body-color);
+}
+
  /*========== LAYOUT ==========*/
 .bd-container{
     max-width: 960px;
