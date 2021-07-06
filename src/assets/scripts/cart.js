@@ -42,12 +42,33 @@
 		cart.summary.subtotal = subtotal;
 		cart.summary.total = cart.summary.subtotal + cart.summary.entrega + cart.summary.outras;
 		cart.summary.totalItems = totalItems;
+
+		cart.summary.subtotal = cart.summary.subtotal.toFixed(2);
+		cart.summary.total = cart.summary.total.toFixed(2);
 	}
 
 	function addToCart(product, quantity){
+		
+		var cart = getOrCreateCart();
+		
+		let index = cart.items.findIndex( x => x.product.codigo === product.codigo );
+		if(index >= 0){
+			cart.items[index].quantity += quantity;
+		}else{
+			cart.items.push({product : product, quantity: quantity});
+		}
+
+		calculateCart(cart);
+		window.sessionStorage.setItem('cart', JSON.stringify(cart));
+		return cart;
+	}
+
+	function getOrCreateCart(){
+		
 		var cart = JSON.parse(window.sessionStorage.getItem('cart'));
+		
 		if(!cart){
-			cart = {
+			return {
 				items : [],
 				summary : {
 					subtotal : 0,
@@ -58,14 +79,7 @@
 				}
 			};
 		}		
-		let index = cart.items.findIndex( x => x.product.codigo === product.codigo );
-		if(index >= 0){
-			cart.items[index].quantity += quantity;
-		}else{
-			cart.items.push({product : product, quantity: quantity});
-		}
-		calculateCart(cart);
-		window.sessionStorage.setItem('cart', JSON.stringify(cart));
+
 		return cart;
 	}
 

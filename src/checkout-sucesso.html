@@ -51,16 +51,7 @@
                             <a class="nav-link " href="captura.html">Limpeza</a>
                         </li>
                     </ul>
-                    <div class="right-menu">
-                        <a href="javascript:void(0);" class="user">
-                            <i class="far fa-user"></i>
-                        </a>
-                        <a href="#" class="carrinho">
-                            <i class="fas fa-shopping-cart">
-                                <span class="num-cart-product">3</span>
-                            </i>
-                        </a>
-                        <img src="assets\img\icon-moon.svg" alt="" id="icon" class="icon">
+                    <div id="cart-header" class="right-menu">                       
                     </div>
                 </div>
             </div>
@@ -165,6 +156,18 @@
         </div>
     </script>
 
+    <script type="text/html" id="template-cart-header">
+        <a href="javascript:void(0);" class="user">
+            <i class="far fa-user"></i>
+        </a>
+        <a href="cart.html" class="carrinho">
+            <i class="fas fa-shopping-cart">
+                <span class="num-cart-product" data-content="totalItems">0</span>
+            </i>
+        </a>
+        <img src="assets/img/icon-moon.svg" alt="" id="icon" class="icon">
+    </script>
+    
     <script type="text/html" id="template-cart-item">
         <div class="col-4 p-2">
             <img data-src="product.img" style="max-width: 100%;">

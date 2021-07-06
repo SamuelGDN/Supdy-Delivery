@@ -25,8 +25,28 @@
 		cart.summary.total = cart.summary.subtotal + cart.summary.entrega + cart.summary.outras;
 	}
 
+    function getOrCreateCart(){
+		
+		var cart = JSON.parse(window.sessionStorage.getItem('cart'));
+		
+		if(!cart){
+			return {
+				items : [],
+				summary : {
+					subtotal : 0,
+					entrega : 0,
+					outras : 0,
+					total : 0,
+					totalItems: 0
+				}
+			};
+		}		
+
+		return cart;
+	}
+
     $(document).ready(function(){
-        var cart = JSON.parse(window.sessionStorage.getItem('cart'));
+        var cart = getOrCreateCart();
 		loadCartTemplates(cart);
         $('a#btnContinuar').on('click', setClient);
         $('input[name="entrega"]').click(function(){

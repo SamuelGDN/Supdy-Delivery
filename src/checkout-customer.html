@@ -52,16 +52,7 @@
                             <a class="nav-link " href="captura.html">Limpeza</a>
                         </li>
                     </ul>
-                    <div class="right-menu">
-                        <a href="javascript:void(0);" class="user">
-                            <i class="far fa-user"></i>
-                        </a>
-                        <a href="#" class="carrinho">
-                            <i class="fas fa-shopping-cart">
-                                <span class="num-cart-product">3</span>
-                            </i>
-                        </a>
-                        <img src="assets\img\icon-moon.svg" alt="" id="icon" class="icon">
+                    <div id="cart-header" class="right-menu">                       
                     </div>
                 </div>
             </div>
@@ -192,7 +183,7 @@
                     </div>
                     <div class="col-6 text-right">
                         <a href="checkout-entrega.html" id="btnContinuar" role="button"
-                            class="btn btn-outline-dark">Continuar</a>
+                            class="btn btn-primary">Continuar</a>
                     </div>
                 </div>
             </div>
@@ -226,8 +217,15 @@
     
      <!-- Templates -->
      <script type="text/html" id="template-cart-header">
-        <a id="cart" class="#" href=""><i class="fa fa-search"></i></a>
-        <a id="cart" class="#" href=""><i class="fa fa-shopping-cart"></i>(<span data-content="totalItems"></span>)</a>
+        <a href="javascript:void(0);" class="user">
+            <i class="far fa-user"></i>
+        </a>
+        <a href="cart.html" class="carrinho">
+            <i class="fas fa-shopping-cart">
+                <span class="num-cart-product" data-content="totalItems">0</span>
+            </i>
+        </a>
+        <img src="assets/img/icon-moon.svg" alt="" id="icon" class="icon">
     </script>
 
     <script type="text/html" id="template-sumary">
