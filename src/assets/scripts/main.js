@@ -1,4 +1,17 @@
-fetch('http://127.0.0.1:5500/src/assets/scripts/ofertas.json')
+(function () {	
+	
+	function loadItems(){
+		$.get('assets/scripts/ofertas.json', function(data){
+			$('#items').loadTemplate($('#template-item'), data.cervejas);
+		});
+	}
+
+	$(document).ready(function(){
+		loadItems();
+	});
+})();
+
+fetch('http://localhost/src/assets/scripts/ofertas.json')
 	.then(function (resp) {
 		return resp.json();
 	})
@@ -19,4 +32,13 @@ fetch('http://127.0.0.1:5500/src/assets/scripts/ofertas.json')
 	});
 
 
-	
+var icon = document.getElementById("icon");
+
+icon.onclick = function() {
+	document.body.classList.toggle("dark-theme");
+	if(document.body.classList.contains("dark-theme")){
+		icon.src = "assets/img/icon-sun.svg"
+	}else{
+		icon.src = "assets/img/icon-moon.svg"
+	}
+}

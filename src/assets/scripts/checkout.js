@@ -1,18 +1,13 @@
-$(document).ready(function(){
-	var produto = JSON.parse(window.sessionStorage.getItem('produto'));
-    console.log(produto);
-    if(produto){
-        $('#cart-item p.description').html(produto.description);
-        $('#cart-item img').attr('src', produto.img);
-        $('.summary-box p.subtotal').html(produto.preco);
-        $('.summary-box p.delivery').html(1);
-        $('.summary-box p.other').html(0);
-        $('.summary-box p.total').html(produto.preco + 1);
-    }
+(function () {	
 
-    $('a#btnContinuar').on('click', function(){
-        
+    function loadCartTemplates(cart){
+		$('#cart-summary').loadTemplate($('#template-sumary'), cart.summary);
+		$('#cart-header').loadTemplate($('#template-cart-header'), cart.summary);
+	}
+
+    function setClient(){
         var cliente = {
+            email : $("input[name='email']").val(),
             nome : $("input[name='nome']").val(),
             empresa : $("input[name='empresa']").val(),
             endereco : $("input[name='endereco']").val(),
@@ -23,7 +18,38 @@ $(document).ready(function(){
             estado : $("select[name='estado']").val(),
             cep : $("select[name='cep']").val()
         };
-
         window.sessionStorage.setItem('cliente', JSON.stringify(cliente));
+    }
+
+    function calculateCart(cart){
+		cart.summary.total = cart.summary.subtotal + cart.summary.entrega + cart.summary.outras;
+	}
+
+    $(document).ready(function(){
+        var cart = JSON.parse(window.sessionStorage.getItem('cart'));
+		loadCartTemplates(cart);
+        $('a#btnContinuar').on('click', setClient);
+        $('input[name="entrega"]').click(function(){
+            cart = JSON.parse(window.sessionStorage.getItem('cart'));
+            cart.summary.entrega = parseFloat($(this).val())
+            calculateCart(cart);
+		    window.sessionStorage.setItem('cart', JSON.stringify(cart));
+            loadCartTemplates(cart);
+        });
+
+        var cliente = JSON.parse(window.sessionStorage.getItem('cliente'));
+        if(cliente){
+            $("input[name='email']").val(cliente.email);
+            $("input[name='nome']").val(cliente.nome);
+            $("input[name='empresa']").val(cliente.empresa);
+            $("input[name='endereco']").val(cliente.endereco);
+            $("input[name='numero']").val(cliente.numero);
+            $("input[name='complemento']").val(cliente.complemento);
+            $("input[name='bairro']").val(cliente.bairro);
+            $("input[name='cidade']").val(cliente.cidade);
+            $("select[name='estado']").val(cliente.estado);
+            $("select[name='cep']").val(cliente.cep);
+        }
     });
-});
+})();
+
