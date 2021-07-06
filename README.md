@@ -1,20 +1,18 @@
 # Delivery de Supermercado
 
-`CURSO`
+`CURSO` Sistemas de Informação
 
-`DISCIPLINA`
+`DISCIPLINA` TRABALHO INTERDISCIPLINAR: APLICAÇÕES WEB
 
-`SEMESTRE`
+1º `SEMESTRE` 
 
 O projeto envolve a criação de uma aplicação web para possibilitar uma interação dinâmica entre o cliente e os proprietários de supermercados, em que os compradores terão acesso aos produtos oferecidos pelo supermercado, e assim, faça a sua lista de compras e receba por delivery, em sua própria casa. Nos tempos em que estamos vivendo, o trabalho ganha grande importância, pois as pessoas podem receber os produtos essenciais de forma segura, não precisando sair de suas residências.
 
 ## Integrantes: 
 
-- Clara Rezende Barreto Sendin;
 - Gabriel Hirano Gomes;
 - Gustavo Augusto Caldeira Dos Santos
 - Samuel Gonzaga das Neves;
-- Sthephanie Ingrid da Silva;
 
 ## Professor
 
