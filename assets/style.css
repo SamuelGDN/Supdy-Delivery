@@ -252,6 +252,22 @@ footer#rodape a.cc{
     justify-content: center;
   }
 
+  .title-ofertas{
+    color: var(--text-color);
+  }
+
+  .card-text{
+    color: var(--text-color);
+  }
+
+  #adicionar{
+    background-color: var(--first-color);
+    color: var(--text-color);
+  }
+
+  #adicionar:hover{
+    
+  }
 
   
   .home__title{
