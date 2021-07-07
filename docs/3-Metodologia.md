@@ -9,16 +9,16 @@ Para a construção do projeto Delivery de Supermercado, foram utilizados conhec
 ## Gerenciamento de Projeto
 
 ### Desenvolvedores
-- Clara Rezende
 - Gustavo Caldeira
+- Gabriel Hirano
 - Samuel Gonzaga
-- Sthephanie Ingrid
 
 ### Analista de Negócios
-- Clara Rezende
+- Samuel Gonzaga
 
 ### Scrum Master
 - Gabriel Hirano
+- Gustavo Caldeira 
 
 
 ### Processo
