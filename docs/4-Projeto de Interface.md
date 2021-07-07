@@ -6,7 +6,7 @@
 
 ![Exemplo de UserFlow](img/user-flow.jpeg)
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+Foi feito o fluxo do caminho que o úsuário final terá ao acessar ao site.
 
 ## Wireframes
 
